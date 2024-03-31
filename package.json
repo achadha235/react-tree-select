@@ -4,6 +4,7 @@
   "author": {
     "name": "Abhishek Chadha"
   },
+  "private": false,
   "keywords": [
     "react"
   ],
