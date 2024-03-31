@@ -1,0 +1,42 @@
+{
+  "name": "react-tree-select",
+  "version": "1.0.0",
+  "author": "Abhishek Chadha",
+  "keywords": [
+    "react"
+  ],
+  "license": "ISC",
+  "description": "A React component that renders a tree of selectable tags",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./styles": "./dist/styles.css"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "tsc && cp ./src/style.css ./dist/style.css"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.2.25",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-interactions": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/addon-onboarding": "^8.0.5",
+    "@storybook/blocks": "^8.0.5",
+    "@storybook/react": "^8.0.5",
+    "@storybook/react-vite": "^8.0.5",
+    "@storybook/test": "^8.0.5",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "chromatic": "^11.3.0",
+    "storybook": "^8.0.5",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.7"
+  }
+}
