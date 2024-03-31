@@ -1,12 +1,16 @@
 {
   "name": "@achadha235/react-tree-select",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Abhishek Chadha"
   },
   "private": false,
   "keywords": [
-    "react"
+    "react-component",
+    "react",
+    "tree",
+    "select",
+    "html"
   ],
   "license": "ISC",
   "description": "A React component that renders a tree of selectable tags",
