@@ -12,7 +12,7 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
-    "./styles": "./dist/styles.css"
+    "./style": "./dist/style.css"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
