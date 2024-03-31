@@ -20,14 +20,6 @@ import React, { useState } from "react";
 import "@achadha235/react-tree-select/style"
 import { TreeSelect } from "@achadha235/react-tree-select"
 
-const styles = {
-  container: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: 2,
-  },
-};
-
 const tags = [
   "Tag 1",
   "Tag 2",
@@ -56,6 +48,54 @@ export function MyComponent() {
     </div>
   );
 }
+
+const styles = {
+  container: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 2,
+  },
+};
+```
+
+## Customizing Styles
+
+The default styles can be imported into your project using the import below
+```
+import "@achadha235/react-tree-select/style"
+```
+
+However, if you'd like to customize the styles, you can include your own CSS. Just override the following classes to change the styles.
+
+```css
+.tree-select {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tree-select.tag {
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all;
+  padding: 4px 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.tree-select.tag.active {
+  background-color: orange;
+}
+
+.tree-select.tag:hover {
+  background-color: lightgray;
+}
+
+.tree-select.tag.active:hover {
+  background-color: rgb(243, 200, 118);
+}
+
+.tree-select.tag:active {
+  background-color: rgb(243, 200, 118);
+}
 ```
 
 ## Avaliable Props 
@@ -65,7 +105,5 @@ export function MyComponent() {
 | selected   	| An object where the options are keys and values are true if they are selected  	| Record<string, boolean>                    	|
 | onSelected 	| Callback that is triggered when the selected options are changed               	| (updated: Record<string, boolean>) => void 	|
 | tags       	| An nested array containing all the available options                           	| Array                             
-
-
 
 
