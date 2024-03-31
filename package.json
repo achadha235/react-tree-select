@@ -1,6 +1,7 @@
 {
   "name": "@achadha235/react-tree-select",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "description": "A React component that renders a tree of selectable tags",
   "author": {
     "name": "Abhishek Chadha"
   },
@@ -12,8 +13,9 @@
     "select",
     "html"
   ],
+  "homepage": "https://github.com/achadha235/react-tree-select#readme",
+  "repository": "https://github.com/achadha235/react-tree-select",
   "license": "ISC",
-  "description": "A React component that renders a tree of selectable tags",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
