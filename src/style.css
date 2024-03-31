@@ -18,3 +18,11 @@
 .tree-select.tag:hover {
   background-color: lightgray;
 }
+
+.tree-select.tag.active:hover {
+  background-color: rgb(243, 200, 118);
+}
+
+.tree-select.tag:active {
+  background-color: rgb(243, 200, 118);
+}

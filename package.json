@@ -1,7 +1,9 @@
 {
   "name": "react-tree-select",
   "version": "1.0.0",
-  "author": "Abhishek Chadha",
+  "author": {
+    "name": "Abhishek Chadha"
+  },
   "keywords": [
     "react"
   ],
@@ -16,7 +18,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "tsc && cp ./src/style.css ./dist/style.css"
+    "build": "tsc && cp ./src/style.css ./dist/style.css",
+    "chromatic": "npx chromatic --project-token=chpt_43330034e83c5b3"
   },
   "dependencies": {
     "react": "^18.2.0",
